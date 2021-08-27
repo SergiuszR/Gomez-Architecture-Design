@@ -1,0 +1,35 @@
+.description-card {
+  // width: 670px;
+  max-width: 676px;
+  padding: 50px 30px;
+  background: rgba(255, 255, 255);
+  color: rgb(39, 39, 39);
+  margin: 10% 10px 0 15%;
+  box-shadow: 4px 4px 0px rgba(75, 75, 75, 0.479);
+  &--top h2 {
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+    letter-spacing: 0.045rem;
+    font-weight: 600;
+  }
+
+  &--top > p {
+    color: #999999;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+.description-card--bottom {
+  p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.35rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+  }
+
+  span p {
+    text-align: right;
+    color: #999999;
+    cursor: pointer;
+  }
+}

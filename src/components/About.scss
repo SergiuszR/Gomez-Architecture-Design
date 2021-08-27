@@ -1,0 +1,60 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-image: url(../assets/bg-about.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .about--letter {
+    height: 100vh;
+    width: auto;
+    max-width: 676px;
+    background: rgba(255, 255, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    display: grid;
+    place-items: center;
+    align-self: flex-start;
+    margin: 0 10px 0 15%;
+    padding: 20px 0;
+
+    .title {
+      width: 60%;
+
+      h2 {
+        text-align: center;
+        width: 100%;
+        font-size: clamp(1.1rem, 3vw, 1.5rem);
+      }
+
+      span p {
+        text-align: center;
+        color: #999999;
+        font-size: clamp(0.8rem, 3vw, 1rem);
+      }
+    }
+
+    .text {
+      width: 80%;
+      margin: auto;
+      text-align: justify;
+      line-height: 1.9rem;
+      font-size: clamp(0.8rem, 3vw, 1rem);
+    }
+
+    .signature {
+      justify-self: flex-end;
+      margin-right: 40px;
+
+      p {
+        font-family: "WindSong";
+        // font-size: 2rem;
+        font-size: clamp(1.3rem, 3vw, 2rem);
+      }
+    }
+  }
+}

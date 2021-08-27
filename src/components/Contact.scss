@@ -1,0 +1,110 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  & .contact--top {
+    width: 100%;
+    background-image: url(../assets/bg-contact.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 3.06rem;
+      color: white;
+      font-weight: 600;
+      font-variant: small-caps;
+      font-family: "Montserrat";
+    }
+  }
+
+  & .contact--bottom {
+    width: 90%;
+    margin: auto;
+    flex-flow: row wrap;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > div {
+      flex: 1;
+      //   border: 1px solid red;
+    }
+
+    .left--side {
+      text-align: center;
+      // border-right: 1px solid black;
+
+      a {
+        text-decoration: none;
+        color: rgb(156, 156, 156);
+
+        &:visited {
+          color: rgb(156, 156, 156);
+        }
+      }
+
+      h2 {
+        font-size: clamp(1.6rem, 3vw, 2.438rem);
+        font-weight: 600;
+        line-height: 48px;
+        align-self: flex-end;
+      }
+      h3 {
+        font-size: clamp(1.3rem, 2vw, 1.25rem);
+        color: rgba(0, 0, 0, 0.56);
+        font-weight: 400;
+        line-height: 24px;
+
+        &:last-child {
+          align-self: flex-start;
+        }
+      }
+    }
+
+    .right--side {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+
+      button {
+        padding: 10px;
+        width: 200px;
+        background: none;
+        border: 1px solid #000000b0;
+        font-size: 1.2rem;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 400ms ease;
+
+        &:hover {
+          background: rgb(53, 53, 53);
+          color: white;
+          transition: 400ms ease;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 10%;
+          height: 100%;
+          background: rgb(53, 53, 53);
+        }
+      }
+    }
+  }
+}

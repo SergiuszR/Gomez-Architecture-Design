@@ -1,0 +1,40 @@
+nav {
+  height: 3.5rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999999999;
+  transition: 300ms ease background;
+
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+
+    li {
+      color: white;
+      font-weight: 500;
+      padding: 10px;
+      list-style: none;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      cursor: pointer;
+      line-height: 34px;
+      transition: 300ms ease all;
+
+      &:hover {
+        color: black;
+        background: white;
+        transition: 300ms ease all;
+      }
+    }
+  }
+}
+
+.active {
+  background: rgb(53, 53, 53);
+  will-change: background;
+  transition: 300ms ease background;
+}

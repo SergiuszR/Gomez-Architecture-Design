@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Memorial Building 1",
+      "photo": "test",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam aliquid culpa tempore iusto impedit minus sed deserunt reiciendis similique distinctio, soluta sit quas nemo dolorum modi saepe! Facere veritatis sapiente reprehenderit quis doloremque voluptate iusto officia assumenda praesentium iste.",
+      "src": "https://images.pexels.com/photos/3312671/pexels-photo-3312671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 2,
+      "title": "Trade Center",
+      "photo": "test",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam aliquid culpa tempore iusto impedit minus sed deserunt reiciendis similique distinctio, soluta sit quas nemo dolorum modi saepe! Facere veritatis sapiente reprehenderit quis doloremque voluptate iusto officia assumenda praesentium iste.",
+      "src": "https://images.pexels.com/photos/3779822/pexels-photo-3779822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "title": "University Two",
+      "photo": "test",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam aliquid culpa tempore iusto impedit minus sed deserunt reiciendis similique distinctio, soluta sit quas nemo dolorum modi saepe! Facere veritatis sapiente reprehenderit quis doloremque voluptate iusto officia assumenda praesentium iste.",
+      "src": "https://images.pexels.com/photos/2838644/pexels-photo-2838644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 4,
+      "title": "Future Project",
+      "photo": "test",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente laboriosam aliquid culpa tempore iusto impedit minus sed deserunt reiciendis similique distinctio, soluta sit quas nemo dolorum modi saepe! Facere veritatis sapiente reprehenderit quis doloremque voluptate iusto officia assumenda praesentium iste.",
+      "src": "https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+  ]
+}

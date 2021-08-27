@@ -1,0 +1,29 @@
+.projects {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  & .projects--top {
+    width: 100%;
+    background-image: url(../assets/bg-projects.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex: 2;
+  }
+
+  & .projects--bottom {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+}
